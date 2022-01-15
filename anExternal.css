@@ -20,7 +20,7 @@ p {
 .container {
     position: relative;
     text-align: center;
-    color: white;
+    color: rgb(255, 0, 0);
   }
 
 .centered {
