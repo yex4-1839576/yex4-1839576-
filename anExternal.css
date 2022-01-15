@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(21, 255, 0);
+  background-color: lightyellow;
 }
 
 h1 {
@@ -8,6 +8,11 @@ h1 {
   text-align: center;
 }
 
+h2 {
+    text-align: center;
+    color: purple
+
+}
 p {
     font-size: 18px 
 }
