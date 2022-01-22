@@ -1,11 +1,90 @@
 body{
-
+background-color: rgba(0, 128, 0, 0.3)
 }
 
 h2{
-    color: #ffbc00;
-    font-size: 40px;
-    font-family: "Passion One";
+    color:rgb(53, 10, 122);
+    font-size: 41px;
+    font-family: "Helvetica";
     margin-bottom: 0px; 
+    text-align: center;
+    font-weight: bolder;
 }
 
+legend{
+    color:rgb(53, 10, 122);
+    font-size: 15;
+    font-family: "Helvetica";
+    font-style: oblique;
+    font-weight: bold;
+    border: double;
+    border-bottom-color:rgb(197, 141, 12);
+    border-right-color:rgb(197, 141, 12);
+
+}
+
+label{
+    color: rgb(211, 17, 17);
+    font-size: small;
+    font-family: Arial;
+    font-style: inherit;
+    text-align: start;
+    width: 700px; 
+    margin-left: auto;
+    margin-right: 30px;
+    margin-bottom: 10px;
+
+}
+
+div.field{
+    color: rgb(121, 68, 0);
+    font-family: "helvetica";
+}
+
+
+input, textarea {
+    background-color:lightyellow;
+    border-style: dashed rgb(253, 0, 0);
+    resize:none;
+  }
+
+  input[type=text] {
+    width: 20%;
+    padding: 5px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.322);
+  }
+ 
+
+  input[type=password] {
+      width: 20%;
+      padding: 5px 15px;
+      margin:8px 0;
+      background-color: rgba(255, 235, 235, 0.753);
+  }
+
+  input[type=checkbox] {
+      width: 5%;
+      padding: 5px 20px;
+      margin: 8px,0;
+
+  }
+
+  input[type=submit] {
+      width: 20%;
+      margin:100px,100px;
+      background-color:rgba(255, 255, 255, 0.288);
+      border: dashed 1px #e76565a1;
+      text-align-last: center;
+      cursor: pointer;
+      display: inline-block;
+      text-align: center;
+      padding: 15px 32px;
+      transition-duration: 0.4s;
+  }
+  input[type=submit]:hover{
+      background-color: rgb(253, 0, 0);
+      color:white;
+  }
+ 
